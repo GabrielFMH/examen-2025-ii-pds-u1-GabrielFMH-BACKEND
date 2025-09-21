@@ -2541,11 +2541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH\\backend\\AttendanceApi.csproj",
+      "projectUniqueName": "C:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH-BACKEND\\AttendanceApi.csproj",
       "projectName": "AttendanceApi",
-      "projectPath": "c:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH\\backend\\AttendanceApi.csproj",
+      "projectPath": "C:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH-BACKEND\\AttendanceApi.csproj",
       "packagesPath": "C:\\Users\\GaboDesktop\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH\\backend\\obj\\",
+      "outputPath": "C:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH-BACKEND\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

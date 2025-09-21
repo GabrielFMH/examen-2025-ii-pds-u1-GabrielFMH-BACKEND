@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6hvmy8OKsE4=",
+  "dgSpecHash": "17VXtGI1nd0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH\\backend\\AttendanceApi.csproj",
+  "projectFilePath": "C:\\Users\\GaboDesktop\\Documents\\GitHub\\examen-2025-ii-pds-u1-GabrielFMH-BACKEND\\AttendanceApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GaboDesktop\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\GaboDesktop\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
