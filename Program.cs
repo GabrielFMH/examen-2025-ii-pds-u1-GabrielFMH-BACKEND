@@ -21,6 +21,8 @@ if (app.Environment.IsDevelopment())
     // OpenAPI/Swagger not available in .NET 8.0
 }
 
+app.MapGet("/", () => "Hola desde AttendanceApi");
+
 app.UseCors(policy => policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseHttpsRedirection();
