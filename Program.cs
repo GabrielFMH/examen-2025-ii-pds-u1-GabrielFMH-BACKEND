@@ -18,8 +18,13 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    // OpenAPI/Swagger not available in .NET 8.0
+    // OpenAPI/Swagger no disponible en .NET 8.0 en producción
 }
+
+// ✅ ✅ ✅ AÑADE ESTA LÍNEA: Usa el puerto que Railway asigna automáticamente
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+var uri = $"http://0.0.0.0:{port}";
+builder.WebHost.UseUrls(uri);
 
 app.MapGet("/", () => "Hola desde AttendanceApi");
 
