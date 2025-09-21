@@ -13,6 +13,13 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 builder.Services.AddDbContext<AttendanceContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Ensure database is created and migrated
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AttendanceContext>();
+    db.Database.Migrate();
+}
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
