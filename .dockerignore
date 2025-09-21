@@ -1,0 +1,11 @@
+# Ignorar directorios de compilación y específicos del IDE
+**/bin
+**/obj
+
+# Ignorar archivos y directorios de control de versiones y del IDE
+.git
+.vs
+.vscode
+
+# Ignorar el propio archivo .dockerignore para que no se copie
+.dockerignore
